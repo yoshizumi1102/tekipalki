@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+@import "./module/setting.scss";
+@import "./module/base.scss";
+@import "./module/common.scss";
+
+.mv {
+  background: url(../../assets/image_uniq/top_mv.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 800px;
+  max-height: 100vh;
+  &__inner {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 95%;
+    padding: 6rem 0;
+  }
+  &__logo {
+    margin-bottom: 40px;
+  }
+  &__txt {
+    font-size: 1.8rem;
+  }
+}
+
+header {
+  .header-menu {
+    background: #333;
+    width: 100px;
+    margin-left: auto;
+    height: 800px;
+    position: fixed;
+    color: #fff;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    font-size: 1.3rem;
+  }
+  .header-nav__list {
+    li {
+      margin: 10px 0;
+    }
+  }
+}
+
+.top-about {
+  &__lead {
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 4rem 0;
+    &-txt {
+      text-align: center;
+      line-height: 1.8;
+    }
+  }
+}
+
+.top-works {
+  .works-container {
+    margin: 4rem 0;
+    border: 2px solid #eee;
+    &__img {
+    }
+    &__body {
+      padding: 20px 15px;
+    }
+  }
+}
+
+.page-btn {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.top-service {
+  .service-wrapper {
+    margin-top: 40px;
+    border: 1px solid #000;
+    padding: 30px 30px 60px;
+    &__number {
+      font-size: 6rem;
+      font-weight: bold;
+      line-height: 1;
+      margin-bottom: 20px;
+    }
+    &__inner {
+      display: flex;
+    }
+    &__body {
+      width: 40%;
+      border-right: 1px solid #eee;
+      padding-right: 20px;
+      margin-right: 20px;
+    }
+    &__heading {
+      font-weight: bold;
+      margin-bottom: 5rem;
+      font-size: 2.8rem;
+    }
+    &__txt {
+      line-height: 1.8;
+    }
+    &__btn {
+      display: flex;
+      margin-top: 30px;
+      .btnA {
+        min-width: auto;
+        margin: 0 5px;
+        width: 50%;
+      }
+    }
+    &__img {
+      width: 60%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.top-contact {
+  &__heading {
+
+  }
+  &__txt {
+    text-align: center;
+    margin: 4rem 0 10rem 0;
+  }
+  &__menu {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    :before {
+      background: url(../../assets/image_uniq/area-parts01.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      width: 55px;
+      height: 56px;
+      position: absolute;
+      top: -50px;
+      left: 0;
+    }
+    :after {
+      background: url(../../assets/image_uniq/area-parts02.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      width: 55px;
+      height: 56px;
+      position: absolute;
+      bottom: -50px;
+      right: 0;
+    }
+    &__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 800px;
+      margin:  0 auto;
+    }
+    &__tel {
+      font-size: 2rem;
+    }
+  }
+  
+}

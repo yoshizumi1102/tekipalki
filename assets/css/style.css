@@ -1,0 +1,196 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Yu gothic', "游ゴシック体",Sans-serif;
+  line-height: 1.5;
+  font-size: 1.6rem; }
+
+h1 {
+  font-size: 3.2rem; }
+
+h2 {
+  font-size: 2.8rem; }
+
+h3 {
+  font-size: 2.4rem; }
+
+h4, h5, h6 {
+  font-size: 2rem; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+@media screen and (max-width: 1024px) {
+  .is-Pc {
+    display: none; } }
+
+@media screen and (max-width: 767px) {
+  .is-Tab {
+    display: none; } }
+
+@media screen and (min-width: 1025px) {
+  .is-Tab {
+    display: none; } }
+
+@media screen and (min-width: 768px) {
+  .is-Sp {
+    display: none; } }
+
+@media screen and (max-width: 767px) {
+  .is-Pc_Tab {
+    display: none; } }
+
+@media screen and (min-width: 1025px) {
+  .is-Tab_Sp {
+    display: none; } }
+
+.top-sec {
+  margin-top: 8rem; }
+  .top-sec:last-of-type {
+    margin: 8rem 0; }
+
+.l-inner {
+  width: 1000px;
+  margin: 0 auto;
+  max-width: 90%; }
+
+.btnA {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+  font-size: 1.8rem;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  min-width: 320px; }
+  .btnA__inner {
+    padding: 15px 0;
+    display: inline-block; }
+  .btnA:hover {
+    background: #333;
+    transition: .4s;
+    color: #fff; }
+
+.mv {
+  background: url(../../assets/image_uniq/top_mv.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 800px;
+  max-height: 100vh; }
+  .mv__inner {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 95%;
+    padding: 6rem 0; }
+  .mv__logo {
+    margin-bottom: 40px; }
+  .mv__txt {
+    font-size: 1.8rem; }
+
+header .header-menu {
+  background: #333;
+  width: 100px;
+  margin-left: auto;
+  height: 800px;
+  position: fixed;
+  color: #fff;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  font-size: 1.3rem; }
+
+header .header-nav__list li {
+  margin: 10px 0; }
+
+.top-about__lead {
+  font-size: 6rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 4rem 0; }
+  .top-about__lead-txt {
+    text-align: center;
+    line-height: 1.8; }
+
+.top-works .works-container {
+  margin: 4rem 0;
+  border: 2px solid #eee; }
+  .top-works .works-container__body {
+    padding: 20px 15px; }
+
+.page-btn {
+  margin-top: 4rem;
+  text-align: center; }
+
+.top-service .service-wrapper {
+  margin-top: 40px;
+  border: 1px solid #000;
+  padding: 30px 30px 60px; }
+  .top-service .service-wrapper__number {
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 20px; }
+  .top-service .service-wrapper__inner {
+    display: flex; }
+  .top-service .service-wrapper__body {
+    width: 40%;
+    border-right: 1px solid #eee;
+    padding-right: 20px;
+    margin-right: 20px; }
+  .top-service .service-wrapper__heading {
+    font-weight: bold;
+    margin-bottom: 5rem;
+    font-size: 2.8rem; }
+  .top-service .service-wrapper__txt {
+    line-height: 1.8; }
+  .top-service .service-wrapper__btn {
+    display: flex;
+    margin-top: 30px; }
+    .top-service .service-wrapper__btn .btnA {
+      min-width: auto;
+      margin: 0 5px;
+      width: 50%; }
+  .top-service .service-wrapper__img {
+    width: 60%; }
+    .top-service .service-wrapper__img img {
+      width: 100%; }
+
+.top-contact__txt {
+  text-align: center;
+  margin: 4rem 0 10rem 0; }
+
+.top-contact__menu {
+  position: relative;
+  width: 80%;
+  margin: 0 auto; }
+  .top-contact__menu :before {
+    background: url(../../assets/image_uniq/area-parts01.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 56px;
+    position: absolute;
+    top: -50px;
+    left: 0; }
+  .top-contact__menu :after {
+    background: url(../../assets/image_uniq/area-parts02.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 56px;
+    position: absolute;
+    bottom: -50px;
+    right: 0; }
+  .top-contact__menu__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+    margin: 0 auto; }
+  .top-contact__menu__tel {
+    font-size: 2rem; }
